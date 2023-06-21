@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  background-color: #222;
+  overflow-x: hidden;
+}
+#page1 {
+  height: 122vh;
+  width: 100vw;
+  background-color: antiquewhite;
+  overflow: hidden;
+}
+
+div #nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  padding: 0px 30px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #222;
+}
+
+div #nav h5 {
+  width: 30%;
+}
+
+div #nav h2 {
+  font-family: 'Kablammo', cursive;
+  height: 30px;
+  width: 30%;
+  text-align: center;
+}
+
+div #nav span {
+  width: 30%;
+  text-align: right;
+}
+
+div #elems {
+  display: flex;
+  height: 450px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+}
+
+#elem1 {
+  width: 30%;
+  height: 100%;
+}
+
+#elem2 {
+  width: 25%;
+  height: 100%;
+  border-right: 2px solid #222;
+  border-left: 2px solid #222;
+  text-align: center;
+}
+
+#elem3 {
+  width: 30%;
+  height: 100%;
+}
+
+#elem1 #imagediv {
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#imgdiv img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all ease 0.5s;
+}
+
+#elem3 #imagediv {
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#scal:hover {
+  scale: 1.1;
+}
+
+#elem1 span {
+  background-color: rgb(148, 126, 1);
+  color: aliceblue;
+  font-weight: 100px;
+  font-size: 18px;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+#elem1 h4 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#elem1 p {
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+}
+
+#elem3 span {
+  background-color: rgb(148, 126, 1);
+  color: aliceblue;
+  font-weight: 100px;
+  font-size: 18px;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+#elem3 h4 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#elem3 p {
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+}
+
+#elem2 h2 {
+  padding-top: 30px;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 100;
+}
+#elem2 h3 {
+  padding-top: 10px;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#elem2 h6 {
+  padding-top: 30%;
+  font-family: 'Playfair Display', serif;
+  font-size: small;
+  font-weight: bolder;
+}
+
+#page1 h1 {
+  font-size: 170px;
+  font-weight: 100;
+  color: antiquewhite;
+  background-color: #222;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  /* width: 96%;
+  margin-left: 2%; */
+}
+
+/* PAGE - 2 */
+
+#page2 {
+  height: 150vh;
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 30px;
+}
+
+#page2-left {
+  height: 100%;
+  width: 40%;
+  padding-right: 50px;
+  border-right: 2px solid #222;
+}
+
+#page2-left h2 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 100px;
+}
+#page2-left h2 span {
+  font-size: 100px;
+  font-weight: 800;
+  letter-spacing: -8px;
+}
+#page2-left img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#page2-left p span {
+  font-weight: 900;
+  font-size: 50px;
+  color: antiquewhite;
+  background-color: black;
+  border-radius: 2px;
+  font-family: 'Kablammo', cursive;
+}
+
+#page2-left p {
+  height: 50%;
+  width: 100%;
+  text-align: justify;
+  font-size: 18px;
+  margin-top: 20px;
+  font-family: 'Amatic SC', cursive;
+}
+
+#page2-right {
+  height: 100%;
+  width: 60%;
+}
+
+#page2-right img {
+  height: 60%;
+  width: 100%;
+  padding-left: 25px;
+  object-fit: cover;
+}
+
+#page2-right h1 {
+  padding-left: 25px;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 95px;
+  letter-spacing: -8px;
+  line-height: 80%;
+  font-weight: 100;
+}
+
+/* PAGE - 3 */
+
+#page3 {
+  height: 40vh;
+  background-color: antiquewhite;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+#page3 h1 {
+  font-size: 189px;
+  letter-spacing: -4px;
+  width: 70%;
+  background-color: #222;
+  color: antiquewhite;
+  font-family: 'Amatic SC', cursive;
+  margin-left: 2%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#page3 img {
+  width: 19%;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 4%;
+  border: 2px black;
+  border-style: dashed;
+}
+
+/* PAGE - 4 */
+
+#page4 {
+  height: 160vh;
+  background-color: antiquewhite;
+}
+#container {
+  margin-left: 2%;
+  display: flex;
+  padding-top: 80px;
+  background-color: aqua;
+}
+
+#element1 {
+  height: 450px;
+  width: 25%;
+}
+
+#element2 {
+  height: 450px;
+  width: 40%;
+  border-left: 2px solid #222;
+  padding: 10px 15px ;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#element1 h2 {
+  padding-top: 30px;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 100;
+}
+#element1 h3 {
+  padding-top: 10px;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#element1 h6 {
+  padding-top: 25%;
+  font-family: 'Playfair Display', serif;
+  font-size: small;
+  font-weight: bolder;
+}
+
+#element2 #imgdiv {
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#element2 h4 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#element2 p {
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+}
+
+
+
+#element3 {
+  height: 160vh;
+  width: 30%;
+  padding-left: 25px;
+  padding-top: 50px;
+  border-left: 2px solid #222;
+}
+
+#element3 h1{
+  font-size: 100px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+}
+
+#element3 h3{
+
+  padding-top: 50px;
+  font-family: 'Playfair Display', serif;
+}
+
+#element3 h3 span {
+  font-weight: 900;
+  font-size: 50px;
+  color: antiquewhite;
+  border-radius: 2px;
+  background-color: black;
+  font-family: 'Kablammo', cursive;
+}
