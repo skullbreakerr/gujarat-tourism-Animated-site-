@@ -159,13 +159,13 @@ div #elems {
 }
 
 #page1 h1 {
-  font-size: 170px;
+  height: 400px;
+  font-size: 155px;
   font-weight: 100;
   color: antiquewhite;
   background-color: #222;
   font-family: 'Amatic SC', cursive;
   text-align: center;
-  overflow: hidden;
 }
 
 /* PAGE - 2 */
@@ -404,72 +404,51 @@ div #elems {
   #page2 {
     margin-top: -212%;
     padding: 2%;
-  }
-  #page2-left {
     display: grid;
   }
-  #page2-left h2 {
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 80px;
-    font-weight: 100;
-    line-height: 100px;
-    z-index: 0;
-  }
-  #page2-left h2 span {
-    display: none;
+  #page2-left{
+    border: none;
   }
   #page2-left img {
-    margin-top: 500%;
-    height: 50%;
-    width: 480%;
-    object-fit: cover;
+    width: 320%;
+    height: 40%;
+    border: 2px solid gray;
   }
-
-  #page2-left p span {
-    font-weight: 900;
-    font-size: 50px;
-    color: antiquewhite;
-    background-color: black;
-    border-radius: 2px;
-    font-family: 'Kablammo', cursive;
-    z-index: 0;
-  }
-
-  #page2-left p {
-    height: 50%;
-    width: 450%;
-    padding: 2px 2px 2px;
-    text-align: justify;
-    font-size: 18px;
-    margin-top: 20px;
-    font-family: 'Amatic SC', cursive;
+  #page2-left p{
     background-color: whitesmoke;
+    width: 320%;
+    height: 20%;
+    margin-bottom: 150%;
   }
-
   #page2-right {
     width: 100%;
   }
   #page2-right img {
-    height: 22%;
-    width: 156%;
+    height: 70%;
+    width: 88%;
     padding-left: 0%;
-    margin-left: -55%;
     object-fit: cover;
     border: 2px solid gray;
   }
 
   #page2-right h1 {
-    padding-left: 5px;
     font-family: 'Playfair Display', sans-serif;
     font-size: 65px;
     letter-spacing: -7px;
-    line-height: 90%;
+    line-height: 110%;
     font-weight: 100;
+    padding-left: 0;
+    margin-top: 4%;
+    width: 90%;
+    border-top: 2px solid #222;
+    border-bottom: 2px solid #222;
+    text-decoration:  underline 1px gray;
   }
 
   #page3 {
     height: 100vh;
     display: list-item;
+    padding-top: 110%;
   }
   #page3 h1 {
     font-size: 75px;
@@ -487,12 +466,116 @@ div #elems {
 
   #page3 img {
     width: 96%;
-    height: 50%;
+    height: 90%;
     margin: 20px;
     margin-left: 2%;
     object-fit: cover;
     margin-right: 4%;
     border: 2px black;
     border-style: dashed;
+  }
+
+
+  #page4 {
+    height: 250vh;
+    background-color: antiquewhite;
+    padding-top: 2%;
+  }
+  #container {
+    margin-left: 2%;
+    display: inline-block;
+    padding-top: 80px;
+  }
+  
+  #element1 {
+    height: 450px;
+    width: 97%;
+  }
+  
+  #element2 {
+    height: 450px;
+    width: 97%;
+    align-items: center;
+    justify-content: space-between;
+    border-left: none;
+  }
+  
+  #element1 h2 {
+    padding-top: 30px;
+    padding-left: 0px;
+    font-family: 'Playfair Display', serif;
+    font-size: 68px;
+    letter-spacing: -4px;
+    text-align: center;
+    font-weight: 800;
+  }
+  #element1 h3 {
+    padding-top: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    border-top: solid #222;
+  }
+  #element1 h6 {
+    padding-top: 8%;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 10px;
+    font-weight: bolder;
+  }
+  
+  #element2 #imgdiv {
+    height: 60%;
+    width: 100%;
+    border: 2px solid gray;
+  }
+  
+  #element2 h4 {
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 0%;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  #element2 p {
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  #element3 {
+    height: 801px;
+    padding-left: 25px;
+    padding-top: 50px;
+    background-color: wheat;
+    border: 2px solid gray;
+    border-right: 2px solid white;
+  }
+  
+  #element3 h1 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+  }
+  
+  #element3 h3 {
+    padding-top: 50px;
+    width: 250%;
+    padding: 2px 12px 12px 2px;
+    font-family: 'Playfair Display', serif;
+    background-color: whitesmoke;
+    z-index: 0;
+  }
+  
+  #element3 h3 span {
+    font-weight: 900;
+    font-size: 50px;
+    color: antiquewhite;
+    border-radius: 2px;
+    background-color: black;
+    font-family: 'Kablammo', cursive;
   }
 }
